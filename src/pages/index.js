@@ -62,7 +62,7 @@ function onSubmit(e) {
             <div>
                   <Media>
                     <img width={64} height={64} className="mr-3"
-                      src="/static/logo.jpg"
+                      src="./logo.jpg"
                       alt="" />
                   </Media>
                 </div>
@@ -90,7 +90,7 @@ function onSubmit(e) {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="./static/slide1.jpg"
+                      src="./slide1.jpg"
                       alt="First slide"
                     />
                     <Carousel.Caption>
@@ -99,7 +99,7 @@ function onSubmit(e) {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="./static/slide1.jpg"
+                      src="./slide1.jpg"
                       alt="Third slide"
                     />
 
@@ -109,7 +109,7 @@ function onSubmit(e) {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="./static/slide1.jpg"
+                      src="./slide1.jpg"
                       alt="Third slide"
                     />
 
@@ -161,7 +161,7 @@ Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM Califor
             <Row>
               <Col>
               <Container fluid= "md">
-                <Row><Col style={{textAlign: "center" }}><img width={150} height={150} src="./static/iconTucSo.png" /><br /></Col></Row>
+                <Row><Col style={{textAlign: "center" }}><img width={150} height={150} src="./iconTucSo.png" /><br /></Col></Row>
                 <Row><Col style={{textAlign: "center"}}><p><h3> Tổng số túc số</h3></p></Col></Row>
 <Row><Col style={{textAlign: "center"}}><p><h2>{totalNumber}</h2></p></Col></Row>
               </Container>                
