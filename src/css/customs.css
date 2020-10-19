@@ -1,0 +1,31 @@
+@media (min-width: 1200px) {
+    .container {
+        background-color: white;
+        color: black;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        background-color:white;
+        color: black;
+    }
+}
+
+.container {
+    color: inherit;
+}
+
+.greenCol {
+    background-color: green;
+}
+
+.yellowCol {
+    background-color: yellow;
+}
+
+.centerCol {
+    display: flex;
+  align-items: center;
+  justify-content: center
+}
