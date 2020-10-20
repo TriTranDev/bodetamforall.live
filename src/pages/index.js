@@ -121,6 +121,7 @@ function onSubmit(e) {
         </Row>
         <Row>
               <Col>
+            <p/>
             <div>
             Nương nơi oai lực bao la của Chư Phật, chư Đại Bồ Tát, chư Hiền thánh Tăng, chư Đạo sư và nương vào những lời huấn thị tâm yếu của Tôn Sư Garchen Rinpoche, phòng Zoom Bồ Đề Tâm đã khởi sự tổ chức chương trình "Cùng Tích Lũy 100 Ngàn Lần Hạnh Nguyện Vương Phổ Hiền".
 <br/>
