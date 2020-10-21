@@ -62,7 +62,7 @@ function onSubmit(e) {
               <Col style={{backgroundColor: "white" }}>
             <div>
                   <Media>
-                    <img width={64} height={64} className="mr-3"
+                    <img width={100%} height={auto} className="mr-3"
                       src="./logo.jpg"
                       alt="" />
                   </Media>
