@@ -72,7 +72,7 @@ function onSubmit(e) {
             <Row>
               <Col sm={9}>
             <div>
-                  <h2 style={{color: "rgb(217,216,26)" }}>CHƯƠNG TRÌNH "CÙNG TÍCH LŨY 100 NGÀN LẦN HẠNH NGUYỆN VƯƠNG PHỔ HIỀN" - Lần 1 (9/2020)</h2>
+                  <h2 style={{color: "rgb(182, 140, 66)" }}>CHƯƠNG TRÌNH "CÙNG TÍCH LŨY 100 NGÀN LẦN HẠNH NGUYỆN VƯƠNG PHỔ HIỀN" - Lần 1 (9/2020)</h2>
                 </div>
               </Col>
 <Col sm={3}></Col>
