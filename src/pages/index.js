@@ -42,6 +42,7 @@ function onSubmit(e) {
     number
   })
   .then(() => {
+      alert("Bạn đã nhập Túc Số thành công!")
     setName('')
     setNumber('')
   })
@@ -69,11 +70,12 @@ function onSubmit(e) {
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col sm={9}>
             <div>
                   <h2 style={{color: "rgb(217,216,26)" }}>CHƯƠNG TRÌNH "CÙNG TÍCH LŨY 100 NGÀN LẦN HẠNH NGUYỆN VƯƠNG PHỔ HIỀN" - Lần 1 (9/2020)</h2>
                 </div>
               </Col>
+<Col sm={3}></Col>
             </Row>
 
             
@@ -163,7 +165,7 @@ Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM Califor
               <Col>
               <Container fluid= "md">
                 <Row><Col style={{textAlign: "center" }}><img width={150} height={150} src="./iconTucSo.png" /><br /></Col></Row>
-                <Row><Col style={{textAlign: "center"}}><p><h3> Tổng số túc số</h3></p></Col></Row>
+                <Row><Col style={{textAlign: "center"}}><p><h3> Tổng túc số</h3></p></Col></Row>
 <Row><Col style={{textAlign: "center"}}><p><h2>{totalNumber}</h2></p></Col></Row>
               </Container>                
               </Col>
@@ -178,7 +180,7 @@ Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM Califor
                 <div><label>Họ và tên:</label> <input type="text" value={name} onChange={ e => setName(e.currentTarget.value)}/></div>
                 <div><label>Nhập số túc:</label> <input type="text" value={number} onChange={ e => setNumber(e.currentTarget.value)}/></div>
                 <br/>
-                <div className="text-center"><button className="btn btn-success">Gữi</button></div>
+                <div className="text-center"><button className="btn btn-success">Gửi</button></div>
                 
                 </form>
                 
