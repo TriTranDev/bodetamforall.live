@@ -101,7 +101,7 @@ function onSubmit(e) {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="./slide1.jpg"
+                      src="./slide2.jpg"
                       alt="Third slide"
                     />
 
@@ -174,13 +174,23 @@ Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM Califor
               <Col><hr/></Col>
             </Row>
             <Row>
-              <Col>
+              <Col style={{paddingRight:0, paddingLeft:0}}>
                 <h6>Để gữi túc số hãy điền thông tin như sau:</h6>
                 <form onSubmit={onSubmit}>
-                <div><label>Họ và tên:</label> <input type="text" value={name} onChange={ e => setName(e.currentTarget.value)}/></div>
-                <div><label>Nhập số túc:</label> <input type="text" value={number} onChange={ e => setNumber(e.currentTarget.value)}/></div>
+                  <Container>
+                    <Row>
+                      <Col><label>Họ và tên:</label></Col>
+                      <Col><input  type="text" value={name} onChange={ e => setName(e.currentTarget.value)}/></Col>
+                    </Row>
+                    
+                    <Row>
+                      <Col><label>Nhập túc số:</label></Col>
+                      <Col><input type="text" value={number} onChange={ e => setNumber(e.currentTarget.value)}/></Col>
+                    </Row>
+                  </Container>
+                  
                 <br/>
-                <div className="text-center"><button className="btn btn-success">Gửi</button></div>
+                <div className="text-center"><button className="btn btn-success">Gửi Túc Số</button></div>
                 
                 </form>
                 
