@@ -175,7 +175,7 @@ Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM Califor
             </Row>
             <Row>
               <Col style={{paddingRight:0, paddingLeft:0}}>
-                <h6>Để gữi túc số hãy điền thông tin như sau:</h6>
+                <h6>Để gửi túc số hãy điền thông tin như sau:</h6>
                 <form onSubmit={onSubmit}>
                   <Container>
                     <Row>
