@@ -88,15 +88,14 @@ function onSubmit(e) {
       <Container>
         <Row>
           <Col>
-          <Carousel>
-                  <Carousel.Item>
+          <Carousel interval={20000}>
+                  <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src="./slide1.jpg"
+                      src="./slide4.jpg"
                       alt="First slide"
                     />
-                    <Carousel.Caption>
-                    </Carousel.Caption>
+                    
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
@@ -104,19 +103,22 @@ function onSubmit(e) {
                       src="./slide2.jpg"
                       alt="Third slide"
                     />
-
-                    <Carousel.Caption>
-                    </Carousel.Caption>
                   </Carousel.Item>
-                  <Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src="./slide3.jpg"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
                     <img
                       className="d-block w-100"
                       src="./slide1.jpg"
                       alt="Third slide"
                     />
 
-                    <Carousel.Caption>
-                    </Carousel.Caption>
+                    
                   </Carousel.Item>
                 </Carousel>
           </Col>
@@ -132,22 +134,31 @@ Hằng tuần chúng ta gặp nhau tại Zoom Bồ Đề Tâm Việt Ngữ, cùn
 Lịch cụ thể như sau:
 <ul>
   <li>
-  	Thứ ba 8PM – 9PM PST Cali (giờ Việt Nam 10h – 11h sáng thứ Tư.)
+    <h6>Buổi 1</h6>
+    Giờ PST – CA: thứ ba 8g. – 9g. tối <br/>
+    Giờ Việt Nam: thứ tư 10g. – 11g. sáng
+  	
   </li>
   <li>
-  	Thứ năm 6AM – 7AM PST Cali (giờ Việt Nam 8h – 9h tối thứ Năm.)
+  <h6>Buổi 2</h6>
+  Giờ PST – CA: thứ năm 6g. – 7g. sáng <br/>
+  Giờ Việt Nam: thứ năm 8g. – 9g. tối
   </li>
   <li>
-  	Thứ năm 8PM – 9PM PST Cali (giờ Việt Nam 10h – 11h sáng thứ Sáu.)
+  <h6>Buổi 3</h6>
+  Giờ PST – CA: thứ năm 8g. – 9g. tối <br/>
+  Giờ Việt Nam: thứ sáu 10g. – 11g. sáng
   </li>
 </ul>
 
-<p>Zoom Bồ Đề Tâm Việt Ngữ:</p>
-<a href="https://us02web.zoom.us/j/81954019396">https://us02web.zoom.us/j/81954019396</a>
+Zoom Bồ Đề Tâm Việt Ngữ:<br/>
+<a href="https://us02web.zoom.us/j/81954019396">https://us02web.zoom.us/j/81954019396</a><br/>
+<a href="https://www.facebook.com/zoombodetam4allviet">https://www.facebook.com/zoombodetam4allviet</a> 
 <br/>
 ID: 819 5401 9396
 <br/>
 Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM California (8PM thứ Năm Việt Nam)
+<br/>
 
 
 
