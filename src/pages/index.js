@@ -111,15 +111,6 @@ function onSubmit(e) {
                       alt="Third slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
-                    <img
-                      className="d-block w-100"
-                      src="./slide1.jpg"
-                      alt="Third slide"
-                    />
-
-                    
-                  </Carousel.Item>
                 </Carousel>
           </Col>
         </Row>
@@ -131,7 +122,7 @@ function onSubmit(e) {
 <br/>
 Hằng tuần chúng ta gặp nhau tại Zoom Bồ Đề Tâm Việt Ngữ, cùng tụng đọc bài Hạnh Nguyện Vương Phổ Hiền để tích lũy thiện đức và hồi hướng đến quả vị giác ngộ của toàn thể chúng sinh, đặc biệt là cho những ai đang bị hành hạ thân tâm và cho các oan gia nhiều đời kiếp. Nguyện tất cả bước vào đường đi của Bồ Tát, thể nhập được bản tâm nguyên sơ và hoàn toàn được giải thoát.
 <br/>
-Lịch cụ thể như sau:
+Lịch 3 buổi cộng tu hàng tuần như sau:
 <ul>
   <li>
     <h6>Buổi 1</h6>
@@ -151,23 +142,26 @@ Lịch cụ thể như sau:
   </li>
 </ul>
 
-Zoom Bồ Đề Tâm Việt Ngữ:<br/>
+Phòng Zoom Bồ Đề Tâm Việt Ngữ:<br/>
 <a href="https://us02web.zoom.us/j/81954019396">https://us02web.zoom.us/j/81954019396</a><br/>
+ID: 819 5401 9396 <br/>
+Facebook Zoom Bồ Đề Tâm (Việt Ngữ)<br/>
 <a href="https://www.facebook.com/zoombodetam4allviet">https://www.facebook.com/zoombodetam4allviet</a> 
+
 <br/>
-ID: 819 5401 9396
+Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM California (8PM thứ Năm Việt Nam).
 <br/>
-Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM California (8PM thứ Năm Việt Nam)
-<br/>
+
 
 
 
             </div>
               </Col>
             </Row>
+            
       </Container>
       </Col>
-        <Col sm={3} style={{border: "1px solid #C2C317" }} >
+      <Col sm={3} style={{border: "1px solid #C2C317" }} >
           <Container>
             <Row>
               <Col></Col>
@@ -209,6 +203,11 @@ Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM Califor
               </Col>
             </Row>
           </Container>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <p></p>
         </Col>
       </Row>
     </Container>
