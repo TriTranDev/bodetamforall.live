@@ -119,32 +119,42 @@ function onSubmit(e) {
             <p/>
             <div>
             Nương nơi oai lực bao la của Chư Phật, chư Đại Bồ Tát, chư Hiền thánh Tăng, chư Đạo sư và nương vào những lời huấn thị tâm yếu của Tôn Sư Garchen Rinpoche, phòng Zoom Bồ Đề Tâm đã khởi sự tổ chức chương trình "Cùng Tích Lũy 100 Ngàn Lần Hạnh Nguyện Vương Phổ Hiền".
-<br/>
+            <br/>
 Hằng tuần chúng ta gặp nhau tại Zoom Bồ Đề Tâm Việt Ngữ, cùng tụng đọc bài Hạnh Nguyện Vương Phổ Hiền để tích lũy thiện đức và hồi hướng đến quả vị giác ngộ của toàn thể chúng sinh, đặc biệt là cho những ai đang bị hành hạ thân tâm và cho các oan gia nhiều đời kiếp. Nguyện tất cả bước vào đường đi của Bồ Tát, thể nhập được bản tâm nguyên sơ và hoàn toàn được giải thoát.
 <br/>
 Lịch 3 buổi cộng tu hàng tuần như sau:
 <ul>
   <li>
     <h6>Buổi 1</h6>
-    Giờ PST – CA: thứ ba 8g. – 9g. tối <br/>
+    Giờ PST – CA: thứ ba 7g. – 8g. tối <br/>
     Giờ Việt Nam: thứ tư 10g. – 11g. sáng
   	
   </li>
   <li>
   <h6>Buổi 2</h6>
-  Giờ PST – CA: thứ năm 6g. – 7g. sáng <br/>
-  Giờ Việt Nam: thứ năm 8g. – 9g. tối
+  Giờ PST – CA: thứ năm 7g. – 8g. sáng <br/>
+  Giờ Việt Nam: thứ năm 10g. – 11g. tối
   </li>
   <li>
   <h6>Buổi 3</h6>
-  Giờ PST – CA: thứ năm 8g. – 9g. tối <br/>
+  Giờ PST – CA: thứ năm 7g. – 8g. tối <br/>
   Giờ Việt Nam: thứ sáu 10g. – 11g. sáng
   </li>
+  <li>
+  <h6>Buổi 4</h6>
+  Giờ PST – CA: thứ bảy 7g. – 8g. sáng <br/>
+  Giờ Việt Nam: thứ bảy 10g. – 11g. tối
+  </li>
 </ul>
-
+Nếu quý Đạo hữu không thể tham dự thời khóa cùng với phòng zoom thì có thể tự tụng riêng theo thời gian phù hợp của Đạo hữu và cùng tích lũy túc số qua trang web này.
+<br/>
+Đường dẫn tải bài tụng “Hạnh Nguyện Vương Phổ Hiền” Việt Ngữ:
+<a href="https://garchen.net/wp-content/uploads/2020/06/Hanh-Nguyen-Vuong-Pho-Hien_King-of-Aspiration-Prayers_H%E1%BB%93ng-Nh%C6%B0.pdf">“Hạnh Nguyện Vương Phổ Hiền”</a><br/>
+<br/>
 Phòng Zoom Bồ Đề Tâm Việt Ngữ:<br/>
 <a href="https://us02web.zoom.us/j/81954019396">https://us02web.zoom.us/j/81954019396</a><br/>
 ID: 819 5401 9396 <br/>
+<br/>
 Facebook Zoom Bồ Đề Tâm (Việt Ngữ)<br/>
 <a href="https://www.facebook.com/zoombodetam4allviet">https://www.facebook.com/zoombodetam4allviet</a> 
 
