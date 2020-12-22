@@ -29,29 +29,34 @@ export default function Home() {
     })
   },[])
 
-function onSubmit(e) {
-  e.preventDefault()
-  
-  if (!isNaN(parseInt(number)) && name.length != 0) {
-    console.log( "Numner = ",number,parseInt(number))
-    firebase
-  .firestore()
-  .collection('TUCSO')
-  .add({
-    name,
-    number
-  })
-  .then(() => {
-      alert("Bạn đã nhập Túc Số thành công!")
-    setName('')
-    setNumber('')
-  })
-  } else {
-    alert("Bạn đã nhập Túc Số sai, Hãy nhập lại nào!")
-  }
-  
+  function onSubmit(e) {
+    e.preventDefault()
 
-}
+    if (!isNaN(parseInt(number)) && name.length != 0) {
+      console.log("Numner = ", number, parseInt(number))
+      if (parseInt(number) <= 400) {
+        firebase
+        .firestore()
+        .collection('TUCSO')
+        .add({
+          name,
+          number
+        })
+        .then(() => {
+          alert("Bạn đã nhập Túc Số thành công!")
+          setName('')
+          setNumber('')
+        })
+      } else {
+        alert("Bạn đã nhập Túc quá lớn, Hãy nhập lại nào!")
+      }
+      
+    } else {
+      alert("Bạn đã nhập Túc Số sai, Hãy nhập lại nào!")
+    }
+
+
+  }
 
   return <div>
     <Container>
