@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Media, Carousel } from 'react-bootstrap'
 import firebase from '../firebase'
 
-
+const COLLECTIONNAME = 'TUCSO_01_21'
 export default function Home() {
   const [name, setName] = useState('')
   const [number,setNumber] = useState('')
@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     firebase
     .firestore()
-    .collection('TUCSO')
+    .collection(COLLECTIONNAME)
     .onSnapshot((snapShot) => {
       const listTuc = snapShot.docs.map((doc) => ({
         ...doc.data()
@@ -37,7 +37,7 @@ export default function Home() {
       if (parseInt(number) <= 400) {
         firebase
         .firestore()
-        .collection('TUCSO')
+        .collection(COLLECTIONNAME)
         .add({
           name,
           number
@@ -77,7 +77,7 @@ export default function Home() {
             <Row>
               <Col sm={9}>
             <div>
-                  <h2 style={{color: "rgb(182, 140, 66)" }}>CHƯƠNG TRÌNH "CÙNG TÍCH LŨY 100 NGÀN LẦN HẠNH NGUYỆN VƯƠNG PHỔ HIỀN" - Lần 1 (9/2020)</h2>
+                  <h2 style={{color: "rgb(182, 140, 66)" }}>CHƯƠNG TRÌNH "CÙNG TÍCH LŨY 100 NGÀN LẦN HẠNH NGUYỆN VƯƠNG PHỔ HIỀN" - Lần 2 (01/2021)</h2>
                 </div>
               </Col>
 <Col sm={3}></Col>
@@ -164,7 +164,7 @@ Facebook Zoom Bồ Đề Tâm (Việt Ngữ)<br/>
 <a href="https://www.facebook.com/zoombodetam4allviet">https://www.facebook.com/zoombodetam4allviet</a> 
 
 <br/>
-Chương trình được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM California (8PM thứ Năm Việt Nam).
+Chương trình "CÙNG TÍCH LŨY 100 NGÀN LẦN HẠNH NGUYỆN VƯƠNG PHỔ HIỀN" lần 1 được bắt đầu vào thứ Năm 24/9/2020 lúc 6AM California (8PM thứ Năm Việt Nam) và đã kết thúc viên mãn với tổng túc số được ghi nhận là 3793.
 <br/>
 
 
