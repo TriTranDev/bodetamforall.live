@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Media, Carousel } from 'react-bootstrap'
 import firebase from '../firebase'
 
-const COLLECTIONNAME = 'TUCSO_01_21'
+const COLLECTIONNAME0 = 'TUCSO'
+const COLLECTIONNAME1 = 'TUCSO_01_21'
+const listCollectionName = [COLLECTIONNAME0,COLLECTIONNAME1]
 export default function Home() {
   const [name, setName] = useState('')
   const [number,setNumber] = useState('')
@@ -14,20 +16,38 @@ export default function Home() {
   // const totalNumber = list.map((l) => (parseInt(l.number))).reduce(reducer);
   
   useEffect(() => {
-    firebase
-    .firestore()
-    .collection(COLLECTIONNAME)
-    .onSnapshot((snapShot) => {
-      const listTuc = snapShot.docs.map((doc) => ({
-        ...doc.data()
-      }))
-      // setList(listTuc)
-      if (listTuc.length !== 0) {
-        setTotalNumber(listTuc.map((l) => (parseInt(l.number))).reduce(reducer))
-      }
-      
-    })
+    getAllTucSo()
   },[])
+
+  function getTucSoWithCollectionName(name) {
+    return new Promise(resolve => {
+      firebase.firestore().collection(name).onSnapshot((snapShot) => {
+        const listTuc = snapShot.docs.map((doc) => ({
+          ...doc.data()
+        }))
+        // setList(listTuc)
+        if (listTuc.length !== 0) {
+          const newTucSo = listTuc.map((l) => (parseInt(l.number))).reduce(reducer)
+          resolve(newTucSo)
+        }
+      })
+    })
+  }
+
+  async function asyncForEach(array, callback) {
+    for (let index = 0; index < array.length; index++) {
+      await callback(array[index], index, array);
+    }
+  }
+
+  async function getAllTucSo() {
+    var totalTucSo = 0
+    await asyncForEach(listCollectionName, async (name) => {
+      const tucSo00 = await getTucSoWithCollectionName(name)  
+      totalTucSo += tucSo00
+    })
+    setTotalNumber(totalTucSo)
+  }
 
   function onSubmit(e) {
     e.preventDefault()
@@ -37,7 +57,7 @@ export default function Home() {
       if (parseInt(number) <= 400) {
         firebase
         .firestore()
-        .collection(COLLECTIONNAME)
+        .collection(COLLECTIONNAME1)
         .add({
           name,
           number
