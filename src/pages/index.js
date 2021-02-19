@@ -66,6 +66,7 @@ export default function Home() {
           alert("Bạn đã nhập Túc Số thành công!")
           setName('')
           setNumber('')
+          getAllTucSo()
         })
       } else {
         alert("Bạn đã nhập Túc quá lớn, Hãy nhập lại nào!")
@@ -117,7 +118,7 @@ export default function Home() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src="./slide5.jpg"
+                      src="./slide6.jpg"
                       alt="First slide"
                     />
                     
@@ -147,28 +148,19 @@ export default function Home() {
             <br/>
 Hằng tuần chúng ta gặp nhau tại Zoom Bồ Đề Tâm Việt Ngữ, cùng tụng đọc bài Hạnh Nguyện Vương Phổ Hiền để tích lũy thiện đức và hồi hướng đến quả vị giác ngộ của toàn thể chúng sinh, đặc biệt là cho những ai đang bị hành hạ thân tâm và cho các oan gia nhiều đời kiếp. Nguyện tất cả bước vào đường đi của Bồ Tát, thể nhập được bản tâm nguyên sơ và hoàn toàn được giải thoát.
 <br/>
-Lịch 3 buổi cộng tu hàng tuần như sau:
+<br/>
+Lịch 2 buổi cộng tu hàng tuần như sau:
 <ul>
   <li>
     <h6>Buổi 1</h6>
-    Giờ PST – CA: thứ ba 7g. – 8g. tối <br/>
-    Giờ Việt Nam: thứ tư 10g. – 11g. sáng
+    Cùng với đạo sư Bu Nima <br/>
+    Thứ Ba: 7pm PST - CA (10h sáng thứ Tư Việt Nam)
   	
   </li>
   <li>
   <h6>Buổi 2</h6>
-  Giờ PST – CA: thứ năm 7g. – 8g. sáng <br/>
-  Giờ Việt Nam: thứ năm 10g. – 11g. tối
-  </li>
-  <li>
-  <h6>Buổi 3</h6>
-  Giờ PST – CA: thứ năm 7g. – 8g. tối <br/>
-  Giờ Việt Nam: thứ sáu 10g. – 11g. sáng
-  </li>
-  <li>
-  <h6>Buổi 4</h6>
-  Giờ PST – CA: thứ bảy 7g. – 8g. sáng <br/>
-  Giờ Việt Nam: thứ bảy 10g. – 11g. tối
+  Cùng với đạo sư Norbu <br/>
+  Thứ Năm: 7am PST - CA (10h tối thứ Năm Việt Nam)
   </li>
 </ul>
 Nếu quý Đạo hữu không thể tham dự thời khóa cùng với phòng zoom thì có thể tự tụng riêng theo thời gian phù hợp của Đạo hữu và cùng tích lũy túc số qua trang web này.
