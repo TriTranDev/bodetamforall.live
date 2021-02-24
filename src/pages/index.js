@@ -152,15 +152,16 @@ Hằng tuần chúng ta gặp nhau tại Zoom Bồ Đề Tâm Việt Ngữ, cùn
 Lịch 2 buổi cộng tu hàng tuần như sau:
 <ul>
   <li>
-    <h6>Buổi 1</h6>
-    Cùng với đạo sư Bu Nima <br/>
-    Thứ Ba: 7pm PST - CA (10h sáng thứ Tư Việt Nam)
+    <h6>Buổi 1 cùng với đạo sư Bu Nima</h6>
+     
+    <h6>Thứ Ba: 7pm PST - CA (10h sáng thứ Tư Việt Nam)</h6>
   	
   </li>
   <li>
-  <h6>Buổi 2</h6>
-  Cùng với đạo sư Norbu <br/>
-  Thứ Năm: 7am PST - CA (10h tối thứ Năm Việt Nam)
+  <h6>Buổi 2 cùng với đạo sư Norbu</h6>
+   
+  <h6>Thứ Năm: 7am PST - CA (10h tối thứ Năm Việt Nam)</h6>
+  <br/>
   </li>
 </ul>
 Nếu quý Đạo hữu không thể tham dự thời khóa cùng với phòng zoom thì có thể tự tụng riêng theo thời gian phù hợp của Đạo hữu và cùng tích lũy túc số qua trang web này.
